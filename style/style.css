@@ -10,7 +10,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 31px 160px;
+}
+.b-margin{
+    /* margin: 31px 160px; */
+    background-color: #F5F5F5;
 }
 .bangladeh-2.o{
     font-size: 32px;
@@ -33,10 +36,12 @@
     border-radius: 15px;
     align-items: center;
     padding: 60px;
+    margin-bottom: 80px;
 }
 .banner-bd{
     font-size: 24px;
-    color: olive;
+    color: #0E0E0E;
+    opacity: 50%;
 }
 .first-banner-text{
     font-size: 56px;
@@ -50,5 +55,40 @@
     border-radius: 6px;
 }
 .first-banner-img{
+    margin-right: 20px;
+}
+.second-banner{
+    font-size: 40px;
+    font-weight: 700;
+}
+.innovation, .sustainability, .infrastructure, .empowerment{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.second-banner-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.innovation-conteiner, .sustainability-conteiner, .infrastructure-conteiner, .empowerment-conteiner{
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+    width: 302px;
+    height: 244px;
+}
+.second-banner-descriptio{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.thrd-banner-div{
+    margin-top: 80px;
+}
+.thrd-banner{
+    font-size: 40px;
+    font-weight: 700;
+}
 
-} 
