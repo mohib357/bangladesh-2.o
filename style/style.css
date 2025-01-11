@@ -164,3 +164,16 @@
     border: none;
     padding: 8px 10px;
 }
+.frth-banner-div{
+    margin-top: 32px;
+    background-color: white;
+    padding: 20px;
+}
+.frth-banner-discription{
+    background-image: url('../images/quote-bg.png');
+    background-repeat: no-repeat;
+}
+.pera{
+    color: #0E0E0E;
+    opacity: 80%;
+}
