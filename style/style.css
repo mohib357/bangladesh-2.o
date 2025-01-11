@@ -78,7 +78,7 @@
     background-color: white;
     border-radius: 16px;
     width: 302px;
-    height: 244px;
+    height: auto;
 }
 .second-banner-descriptio{
     color: #0E0E0E;
@@ -91,4 +91,76 @@
     font-size: 40px;
     font-weight: 700;
 }
-
+.thrd-banner-description{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.thrd-banner-sec{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+.thrd-banner-div1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+}
+.thrd-banner-h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.thrd-banner-des1{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.thrd-banner-btn1{
+    border-radius: 8px;
+    background-color: #5490F5;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+}
+/* div 2 */
+.thrd-banner-div2{
+    background-color: rgb(198, 228, 214);
+    padding: 32px;
+    border-radius: 16px;
+}
+.thrd-banner-h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.thrd-banner-des2{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.thrd-banner-btn2{
+    border-radius: 8px;
+    background-color: #09A15C;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+}
+/* div 3 */
+.thrd-banner-div3{
+    background-color: rgb(247, 235, 207);
+    padding: 32px;
+    border-radius: 16px;
+}
+.thrd-banner-h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.thrd-banner-des3{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.thrd-banner-btn3{
+    border-radius: 8px;
+    background-color: #FFC239;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+}
