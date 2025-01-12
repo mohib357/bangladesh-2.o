@@ -3,7 +3,9 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "wdth" 100;;
+
+
 }
 /* Header Style */
 .head{
@@ -14,6 +16,8 @@
 .b-margin{
     /* margin: 31px 160px; */
     background-color: #F5F5F5;
+    width: 95%;
+    margin: auto;
 }
 .bangladeh-2.o{
     font-size: 32px;
@@ -164,16 +168,84 @@
     border: none;
     padding: 8px 10px;
 }
-.frth-banner-div{
-    margin-top: 32px;
+.frth-parent-div{
+    padding: 16px;
     background-color: white;
-    padding: 20px;
+    margin-top: 32px;
+    margin-bottom: auto;
+    border-radius: 20px;
 }
-.frth-banner-discription{
+.frth-banner-div{
+    padding: 20px;
     background-image: url('../images/quote-bg.png');
     background-repeat: no-repeat;
+    background-position: 20px 10px;
+    margin: auto;
 }
 .pera{
     color: #0E0E0E;
     opacity: 80%;
+}
+.younus{
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.younus-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+}
+.table-div{
+    margin-top: 80px;
+}
+.table-h{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+}
+.td-commit, .td-agree{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(14, 14, 14);
+}
+.table-conteiner{
+    border-collapse: collapse;
+    padding: 32px;
+    width: 100%;
+}
+.table-body-div{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    margin: auto;
+}
+.td-agree-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    padding: 8px;
+    background-color: rgb(198, 228, 214);;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(14, 14, 14);
+}
+.fa-chevron-down{
+    margin-left: 8px;
+}
+.table-head{
+    background-color: rgb(198, 228, 214);
+    justify-content: space-between;
+}
+.table-td{
+    padding: 24px 0px 24px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+tbody .td-agree{
+    text-align: center;
 }
