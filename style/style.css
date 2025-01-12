@@ -32,6 +32,7 @@
     color: #006A50;
     background-color: white;
     border: 1px solid;
+    cursor: pointer;
 }
 .first-banner-container{
     display: flex;
@@ -57,6 +58,7 @@
     font-size: 18px;
     padding: 17px 34px;
     border-radius: 6px;
+    cursor: pointer;
 }
 .first-banner-img{
     margin-right: 20px;
@@ -125,6 +127,7 @@
     color: white;
     border: none;
     padding: 8px 10px;
+    cursor: pointer;
 }
 /* div 2 */
 .thrd-banner-div2{
@@ -146,6 +149,7 @@
     color: white;
     border: none;
     padding: 8px 10px;
+    cursor: pointer;
 }
 /* div 3 */
 .thrd-banner-div3{
@@ -167,6 +171,7 @@
     color: white;
     border: none;
     padding: 8px 10px;
+    cursor: pointer;
 }
 .frth-parent-div{
     padding: 16px;
@@ -298,6 +303,7 @@ tbody .td-agree{
     padding: 8px 12px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 .news-div{
     padding: 10px;
@@ -340,9 +346,124 @@ tbody .td-agree{
     padding: 8px 12px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 .news-img2{
     border-radius: 24px;
     width: 408px;
     height: 306px;
+}
+.donate{
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+}
+.donet-p{
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+}
+.donate-div{
+    text-align: center;
+    justify-items: center;
+}
+.ammount-div{
+    display: flex;
+    gap: 24px;
+}
+.ammount{
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+.two{
+    background-color: rgb(198, 228, 214);
+}
+.input-f{
+    padding: 15px;
+    justify-content: space-between;
+    border: none;
+    display: block;
+    width: 60%;
+    text-align: center;    
+}
+.donate-btn{
+    color: white;
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.contuct-container{
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    margin-top: 80px;
+    padding: 80px 100px;
+    text-align: center;
+}
+.contuct-head{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+}
+.contuct-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.email-f{
+    padding: 15px;
+    justify-content: space-between;
+    border: none;
+    text-align: center; 
+    
+}
+.feld{
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    padding: 18px 180px 18px 40px;
+    border: none; 
+    
+}
+.feld-btn{
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    margin-right: -20px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    padding: 18px 40px;
+    border: none;
+    cursor: pointer; 
+}
+.footer-container{
+    text-align: center;
+
+}
+.footer-contain-img{
+    display: flex;
+    gap: 32px;
+    justify-items: center;
+}
+.footer-contain-img{
+    justify-content: center;
+}
+.footer-div{
+    background-color: rgb(255, 255, 255);
+    padding: 60px;
+}
+hr{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #0E0E0E;
+    opacity: 20%;
+}
+.image-b{
+    cursor: pointer;
 }
